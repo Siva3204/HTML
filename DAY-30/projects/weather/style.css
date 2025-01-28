@@ -1,0 +1,171 @@
+body{
+    height:100vh;
+    width:100%;
+    overflow: hidden;
+    justify-items: center;
+}
+h1{
+    text-align: center;
+}
+.container{
+    height:82vh;
+    width:35%;
+    text-align: center;
+    border:2px solid rgb(13, 13, 17);
+    background-color:cyan;
+    cursor: pointer;
+}
+.row{
+    height:50px;
+    width:100%;
+    align-content: center;
+    text-align: center;
+}
+input{
+    height:30px;
+    width:350px;
+}
+button{
+    height:34px;
+    width:60px;
+    font-size:16px;
+    cursor: pointer;
+}
+h2{
+  height:30px;
+  width:440px;
+  text-align: center;
+  align-content: center;
+  font-size:30px;
+}
+#k1{
+    margin-left:10%;
+    text-transform:capitalize;
+    text-decoration: underline;
+    color: darkred;
+    font-size:30px;
+    font-family:cursive;
+}
+#a1{
+    object-fit: cover;
+    text-align: center;
+    align-content: center;
+}
+.row1{
+    text-align: center;
+}
+p{
+    font-size:20px;
+}
+.row2{
+    display:flex;
+    justify-content: center;
+    gap:30%;
+   
+}
+@media screen AND (max-width: 768px) {
+    .container {
+      width:60%; 
+      margin-left: 10%; 
+    }
+   h1{ 
+    text-align: center;
+   }
+   .row{
+    height:50px;
+    width:100%;
+    align-content: center;
+    text-align: center;
+   }
+   input{
+    height:30px;
+    width:350px;
+    
+    
+   }
+   button{
+    height:34px;
+    width:60px;
+    font-size:16px;
+    cursor: pointer;
+   }
+   h2{
+    height:30px;
+    width:440px;
+    text-align: center;
+    align-content: center;
+    font-size:30px;
+   }
+   #k1{
+    width:77%;
+    text-align: center;
+    text-transform:capitalize;
+    text-decoration: underline;
+    color: darkred;
+    font-size:30px;
+    font-family:cursive;
+   }
+   #a1{
+    object-fit: cover;
+    text-align: center;
+    align-content: center;
+}
+     .row1, .row2 {
+      flex-direction: row; 
+      align-items: center; 
+    }
+  }
+  @media screen AND (min-width:769px) {
+    .container {
+      width:450px; 
+      margin-left: 8%; 
+    }
+   h1{ 
+    text-align: center;
+   }
+   .row{
+    height:50px;
+    width:100%;
+    align-content: center;
+    text-align: center;
+   }
+   input{
+    height:30px;
+    width:350px;
+    
+    
+   }
+   button{
+    height:34px;
+    width:60px;
+    font-size:16px;
+    cursor: pointer;
+   }
+   h2{
+    height:30px;
+    width:440px;
+    text-align: center;
+    align-content: center;
+    font-size:30px;
+   }
+   #k1{
+    width:65%;
+    text-align: center;
+    text-transform:capitalize;
+    text-decoration: underline;
+    color: darkred;
+    font-size:30px;
+    font-family:cursive;
+   }
+   #a1{
+    object-fit: cover;
+    text-align: center;
+    align-content: center;
+}
+     .row1, .row2 {
+      flex-direction: row; 
+      align-items: center; 
+    }
+  }
+  
+  

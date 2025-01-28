@@ -1,0 +1,41 @@
+
+#siv{
+    background-color: aquamarine;
+     /* position:fixed;
+    top:60%; */
+    /* left:0%; */
+    /* right:0%; */
+    /* bottom:60%; */
+}
+#vas{
+    background-color: violet;
+     /* position: absolute; */
+    /* top:70%;  */
+    /* bottom:70%; */
+    /* margin-left: 40%; */
+    /* left:70%; */
+    /* right: 80%; */
+}
+#tej{
+    background-color: brown;
+     position:relative;
+        top:50px; 
+     /* bottom:70px;  */
+     /* margin-left: 40px;  */
+    /* left:70px; */
+    /* right: 10px; */
+}
+#te{
+    background-color: blanchedalmond;
+     position:static; 
+    /* top:50%; */ 
+}
+ #si{
+    background-color: grey;
+    position:sticky;
+    bottom:0;
+} 
+/* div{
+  position:sticky;
+
+} */

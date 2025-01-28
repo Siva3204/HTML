@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+body{
+    height:100%;
+    width:100%;
+}
+.container{
+    height:80%;
+    width:50%;
+    align-items: center;
+    /* border:2px solid red */
+}
+.month{
+    height:100px;
+    display:flex;
+    justify-content: space-around;
+    /* border:2px solid blue; */
+}
+button{
+    height:30px;
+ font-size:20px;
+}
+.weeks {
+    height:40px;
+    width:100%;
+    text-align: center;
+    align-content: center;
+    border:2px solid blue;
+}
+.weeks ul{
+    display: flex;
+    list-style:none;
+    justify-content: space-evenly;
+    /* justify-content: space-around */
+}
+
+.days{
+    height:900px;
+    width:100%;
+    border:2px solid red;
+}
+.numbers{
+    /* height:100%; */
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(7,auto);
+    /* flex-direction:row; */
+    /* flex-wrap: wrap; */
+    text-align: center;
+    list-style:none;
+    justify-content:space-evenly;
+}
+.numbers li{
+    width:50%;
+    display:flex;
+    /* flex-wrap: wrap; */
+    text-align: center;
+    padding-top: 40px;
+     /* justify-content:space-around; */
+ } 

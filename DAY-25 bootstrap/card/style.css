@@ -1,0 +1,27 @@
+
+.container{
+   justify-content: center;
+    width:100%;
+}
+img{
+   
+    margin-left: 40%;
+    box-shadow:10px 10px 20px ;
+}
+.overlay{
+    top:50%;
+}
+p{
+    position: absolute;
+    width:27%;
+    top:53%;
+    color:white;
+    margin-left: 35%;
+   
+}
+h2{
+    position:absolute;
+    top:45%;
+    color:rgb(195, 88, 22);
+    margin-left: 35%;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="modal.css"> -->
+    <style>
+       #popup{
+        display:none;
+       }
+    </style>
+    <script>
+        function createpopup(){
+        console.log("created")
+        var siva=document.getElementById("popup");
+       console.log("siva")
+       siva.style.display="block";
+       siva.nav
+        }
+    </script>
+</head>
+<body>
+    <h1>popup</h1>
+    <header>
+        <nav>
+        <button type="submit" onclick="createpopup()">login</button>
+            <!-- <h2>login</h2> -->
+            <form id="popup">
+                <h1><u>login</u></h1>
+                <label for="name">Name:</label><br/>
+                <input type="text" placeholder="enter your name" required><br/>
+                <label for="E-mail">E-mail:</label><br/>
+                <input type="text" placeholder="enter your E-mail" required><br/>
+                <label for="password">Password:</label><br/>
+                <input type="password" placeholder="enter your password" required><br/>
+                <button type="submit"  id="log">login</button>
+          </form>
+        </a>
+      </nav>
+        <a href="signup">
+            <h2>signup</h2>
+            </a>
+        <a href="contact">
+            <h2>contact</h2>
+        </a>
+
+    </header>
+</body>
+</html>

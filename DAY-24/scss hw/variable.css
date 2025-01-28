@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+}
+
+div {
+  border: 3px solid blue;
+  height: 300px;
+}
+
+p {
+  color: pink;
+  background-color: beige;
+}/*# sourceMappingURL=variable.css.map */

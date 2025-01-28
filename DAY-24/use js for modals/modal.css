@@ -1,0 +1,9 @@
+header{
+    background-color: chocolate;
+     display:flex;
+    gap:20px; 
+}
+a{
+    /* text-decoration: none; */
+    float:right;
+}

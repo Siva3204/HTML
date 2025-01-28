@@ -1,0 +1,25 @@
+body{
+    border: 2px solid green;
+}
+div{
+    border:2px solid green;
+
+}
+#row {
+    display:flex;
+    flex-direction:row;
+    text-align: justify;
+    width:60%;
+    height:800px;
+   
+}
+#siva{
+    display:flex;
+    flex-direction:column;
+    /* flex-wrap: wrap; */
+    width:50%;
+    height:800px;
+    border:2px solid green;
+    align-items: center;
+    flex-flow:row-reverse;
+}

@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <style>
+            canvas{
+                border:2px solid green;
+            }
+        </style>
+    </head>
+        <body>
+            <!-- canvas -->
+ <canvas id="Siva" height="400" width="400"></canvas>
+         <script src="line.js" type="module"></script>
+       
+         <hr/>
+
+         <!-- text canvas -->
+          <canvas id="siva" height="400" width="400">      
+          </canvas>
+          <script src="text.js" type="module"></script>
+                <hr/>
+                 <!--arc(circle)  -->
+                 <canvas id="myCanvas" height="400" width="400">
+                </canvas> 
+                 <script src="line.js" type="module"></script>
+                   <hr/>
+ 
+                  <!-- stroke text -->
+
+                 <canvas id="mycanvas" height="400" width="400" >
+                </canvas> 
+                 <script src="line.js" type="module"></script>
+                   <hr/>
+                   <!-- Draw a text -->
+
+                 <canvas id="my_canvas" height="400" width="400" >
+                </canvas> 
+                 <script src="line.js" type="module"></script>
+                  <hr/>
+                    
+
+
+                         <!-- svg -->
+
+                 <svg height="400" width="400">
+                 <circle id="mycircle" cx="150" cy="150" r="100" stroke-width="10" stroke="green">
+                 </svg>
+                 <button onclick="inc()">Increase me</button>
+                 <button onclick="dec()">Decrease me</button>
+
+
+                 <!-- rectangle -->
+
+                 <svg height="300" width="300">
+                    <rect height="500" width="500" cx="100" cy="500"  stroke-width="10"  style="stroke:blue"; border:2px solid black; fill="pink";>
+                    </svg>
+
+
+                    <canvas id="Siva" height="400px" width="500px">
+                        This canvas is not supported on your browser
+                    </canvas>
+            
+                         <a download="Siva" id="siva">download</a>
+                        <script  type="module" src="line.js">
+                    </script>
+                    <select>
+                        <option>png</option>
+                        <option>jpg</option>
+                    </select> 
+                
+                    <script >
+                        function inc(){
+                            var c = document.getElementById('mycircle')
+                            var radius = c.getAttribute('r')
+                            radius = parseInt(radius) + 10
+                            c.setAttribute('r',radius)
+                         }
+                        </script>
+                          <script> 
+                            function dec(){
+                                var c=document.getElementById('mycircle')
+                                var radius=c.getAttribute('r')
+                                radius= parseInt(radius)-10
+                                c.setAttribute('r',radius)
+                            }   
+                    </script>
+                    
+        </body>
+   
+ </html>

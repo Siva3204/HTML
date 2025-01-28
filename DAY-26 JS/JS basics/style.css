@@ -1,0 +1,14 @@
+h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:underline;
+    
+}
+main{
+    text-align: center;
+    border:2px solid black;
+}
+h3{
+    text-decoration: underline;
+}

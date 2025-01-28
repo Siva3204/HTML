@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>java script</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>java basics</h2>
+    <main>
+      <h3>compiler</h3>
+      <p>
+        For Converting the code written in a high-level language into
+        machine-level language so that computers can easily understand
+      </p>
+      <img
+        src="https://media.geeksforgeeks.org/wp-content/uploads/20200524115722/Capture3311.png"
+      />
+      <h3>interpreter</h3>
+      <p>
+        The interpreter converts high-level language to an intermediate
+        language.
+      </p>
+      <img
+        src="https://media.geeksforgeeks.org/wp-content/uploads/20200530152827/223-1.png"
+      />
+    </main>
+    <article id="siva">
+      <p>this is mine</p>
+    </article>
+    <!-- <script src="basics.js"></script> -->
+    <script>
+      let a = document.createElement("p");
+      a.innerHTML = "this is my para";
+      console.log(a);
+      let ele = document.getElementById("siva");
+      ele.appendChild(a);
+    </script>
+  </body>
+</html>

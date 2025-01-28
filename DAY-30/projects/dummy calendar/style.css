@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.month {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.weeks ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.weeks ul li {
+    width: 14.28%; /* 100% / 7 days */
+    text-align: center;
+}
+
+.days ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0;
+}
+
+.days ul li {
+    text-align: center;
+    border: 1px solid #ccc;
+}

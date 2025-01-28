@@ -1,0 +1,35 @@
+ 
+form{
+   text-align: center;
+   align-content: center;
+    height:100%;
+    width: 30%;
+    margin-left: 400px;
+    border: 2px solid blue;
+} 
+label{
+    width:300px;
+    height: 20px;
+    
+}
+input[type="text"],input[type="password"]{
+        width:300px;
+        margin:10px;
+        height: 30px;
+        border-radius: 50px;
+}
+button[type="text"]{
+    border-radius: 50px;
+    background-color: chocolate;
+    width:100px;
+    height: 50px;
+}
+label:hover{
+    background-color: rgb(10, 200, 41);
+}  
+input:hover{
+    background-color: rgb(189, 195, 19);
+}
+form:hover{
+    background-color: chocolate;
+}

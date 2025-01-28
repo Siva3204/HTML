@@ -1,0 +1,66 @@
+body{
+    border:2px solid green;
+}
+h1{
+    text-align: center;
+    text-decoration: underline red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+div{
+    border:5px solid black ;
+    margin:100px;
+width:700px;
+height:700px;
+background-color:aqua;
+
+}
+#siva{
+    margin-top:80px;
+    border:4px solid green;
+    width:490px;
+    height:430px;
+    background-color: aquamarine;
+    
+}
+
+#si{
+    border:3px solid red;
+    margin-top:80px;
+
+    height:170px;
+    width:300px;
+   background-color: aqua;
+}
+
+#va{
+    border:2px solid red;
+    margin-top: 30px;
+    height: 40px;
+   width:100px;
+   background-color: cadetblue;
+    
+}
+div:hover{
+    background-color: aqua;
+}
+#siva:hover{
+    background-color: yellowgreen;
+}
+#si:hover{
+    background-color: aquamarine;
+}
+#va:hover{
+    background-color: blueviolet;
+}
+
+p{
+    text-align:justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    text-transform: capitalize;
+    text-decoration: line-through;
+    text-decoration:underline red;
+}
+/* h2{
+    text-align:center;
+} */

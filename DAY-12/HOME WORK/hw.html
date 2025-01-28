@@ -1,0 +1,295 @@
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Free Web tutorials">
+      <meta name="keywords" content="HTML, CSS, JavaScript">
+      <meta name="author" content="John Doe">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>naveen</title>
+        <style>
+          table,th,td{
+            border:2px solid rgb(201, 31, 31);
+            border-collapse: collapse;
+          }
+          form{
+            border: 3px;
+            border-color: blanchedalmond;
+            border-style: solid;
+            width: 60%;
+          }
+          canvas{
+            border:2px solid green;
+        }
+        </style>
+    </head>
+    <body>
+       <h1 style="text-align:center">sivakumar</h1>
+       <img src="https://static.vecteezy.com/system/resources/thumbnails/025/284/015/small_2x/close-up-growing-beautiful-forest-in-glass-ball-and-flying-butterflies-in-nature-outdoors-spring-season-concept-generative-ai-photo.jpg" alt="image" height="400" width="600">
+       <h2 id="1">introduction</h2>
+       <p>This course is designed as an introduction to HTML and CSS for those who want to learn to develop standards-compliant web content, with a focus on current HTML5 and CSS3 standards. This course can be taught on Microsoft® Windows®, Apple® Mac OS® X, or Linux®, and supports developers who work in any of those environments. In this course, you will develop web content in HTML5 and CSS3 following principles of responsive web design. You will be able to optimize HTML content to take advantage of HTML5 and CSS3 features. Write advanced CSS3 selectors and media queries. Utilize advanced background and border options introduced in CSS3. Be able to utilize advanced text formatting options introduced in CSS3. Also use HTML5 graphics and multimedia elements, including transforms, animation, audio, and video. Lastly, follow best practices to enable HTML content to be successfully processed by many different web browsers and machine readers.
+
+       </p>
+        <h2><u>Navgation(nav)</u></h2>
+        <ol>
+          <li><a href="#1">introduction</a></li>
+            <li><a href="project.html">project</a></li>                        
+            <li><a href="login.html">login</a></li>
+            <li><a href="contact us.html">contact us</a></li>
+            <li><a href="sign up.html">sign up</a></li>
+            <li><a href="Imagination.html">Imagination</a></li>
+            <li><a href="semantic tags.html">semantic tags</li>
+        </ol>
+        <ol>
+            <li>
+        <h1><u>project</u></h1></li>
+        <ul>
+           <li><h1>image</h1></li>
+           <figure>
+        <img src="C:\Users\sivakumar\Pictures\siva.jpg" alt="siva.jpg" width="400px" height="400px">
+        <figcaption>fig-1:siva image</figcaption>
+           </figure>
+           
+           <li><h1>video</h1></li>
+             <video  width="700px" height="500px" controls >
+              <source src="D:\aaya video.mp4\www.5MovieRulz.store - Aay (2024) 720p Telugu HQ HDRip - x264 - (DD+5.1 - 192Kbps & AAC) - 1.4GB - ESub.mkv" type="video/mp4" width="1oo%" height="100%">
+              </video>
+              
+              <li><h1>audio</h1></li>
+              <audio controls loop>
+                <source src="d:\music\Rolex song.mp3" alt="rolexsong" >
+              </audio>
+              <li><h1>iframe</h1></li>
+              <iframe src="http://1.bp.blogspot.com/-xIZbwd4Jwi4/UCo1TBKJE4I/AAAAAAAAHiY/fqm9vDLMN1M/s1600/borders+and+frames+(4).png" height="400px" width="400px">
+              </iframe>
+             </ul>
+             <li><h1>login and signup</h1></li>
+             <h2>Form</h2>
+             <form >
+             Name:<input type="text" id="Name"  placeholder="Enter your name" required>
+                               <br/>  (or)<br/>
+
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" placeholder="Enter your name" required> <br/>
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Enter your password" required> <br/>
+            <label for="Age">Age:</label>
+            <input type="text" id="Age" placeholder="Enter your age" required><br/>
+            <label for="rollno">Rollno:</label>
+            <input type="text" id="rollno" placeholder="Enter your Rollno" required><br/>
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" placeholder="Enter your email"required> <br/>
+            <label for="date">Date:</label>
+            <input type="date" placeholder="Enter your date" required> <br/>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="gender">Male
+            <input type="radio" name="gender">female<br/>
+            Hobbies:<input type="checkbox">playing cricket
+            <input type="checkbox">playing chess
+              <br/>(or)<br/>
+              <label for="Hobbies">Hobbies:</label>
+              <input type="checkbox">playing cricket
+              <input type="checkbox">playing chess
+              <input type="checkbox">reading books<br/>
+              <label for="College">College:</label>
+              <input type="radio" id="College" name="College"required>SVCET
+              <input type="radio" name="College"required>MITS
+              <input type="radio" name="College"required>RVS
+              <input type="radio" name="College"required>SVCT<br/>
+              course:<input type="radio" id="course" name="course"required>Bsc
+              <input type="radio" id="course" name="course"required>B.COM
+              <input type="radio" id="course" name="course"required>B-TECH
+              <br/>
+              <label for="course">Course:</label>
+              <select>
+                <option>BSC</option>
+                <option>B.COM</option>
+                <option>B.TECH</option>
+                <option>None</option>
+              </select><br/>
+              <label for="college">college:</label>
+              <select>
+              <option>SVCET</option>
+              <option>MITS</option>
+              <option>SVCT</option>
+              <option>None</option>
+              </select><br/>
+              <label for="phone number">phone number:</label>
+              <select>
+                <option>+12</option>
+                <option>+46</option>
+                <option>+91</option>
+                <option>None</option>
+              </select>
+              <input type="text" id="phone number" placeholder="Enter your number"><br/>
+              <input type="submit"required>
+              <input type="Reset" required>
+            </select>
+          </form>
+          <button><a href="imagination.html">next</a></button>
+          <button><a href="project.html">previous</a></button></button>
+          <button><a href="#t1">forward</a></button></button>
+
+            <li><h1>contact us</h1></li>
+          <h2><u>table</u></h2>
+
+          <!-- table --> 
+          <table id="t1">
+            <caption><u>details</u></caption>
+            <tr >
+            <th width="100">Name</th>
+            <th>phone number</th>
+            </tr>
+            <tr>
+                <td>siva</td>
+                <td>********37</td>
+            </tr>
+            <tr>
+                <td>reddemma</td> 
+                <td>********78</td>
+            </tr>
+            <tr>
+                <td>reddeppa</td>
+                <td>*******24</td>
+                </tr>
+          </table>
+          <li><h1>imagination</h1></li> 
+        </ol> 
+         <!-- canvas -->
+         <canvas id="Siva" height="400" width="400"></canvas>
+         <script src="line.js" type="module"></script>
+        
+         <hr/>
+        
+         <!-- text canvas -->
+          <canvas id="siva" height="400" width="400">      
+          </canvas>
+          <script src="text.js" type="module"></script>
+                <hr/>
+                 <!--arc(circle)  -->
+                 <canvas id="myCanvas" height="400" width="400">
+                </canvas> 
+                 <script src="line.js" type="module"></script>
+                   <hr/>
+        
+                  <!-- stroke text -->
+        
+                 <canvas id="mycanvas" height="400" width="400" >
+                </canvas> 
+                 <script src="line.js" type="module"></script>
+                   <hr/>
+                   <!-- Draw a text -->
+        
+                 <canvas id="my_canvas" height="400" width="400" >
+                </canvas> 
+                 <script src="line.js" type="module"></script>
+                  <hr/>
+                 <!-- svg -->
+        
+                 <svg height="400px" width="400px">
+                 <circle cx="150" cy="150" r="100" stroke-width="10" stroke="green">
+                 </svg>
+        
+                 <!-- rectangle -->
+        
+                 <svg height="300" width="300">
+                    <rect height="500" width="500" cx="100" cy="500"  stroke-width="10"  style="stroke:blue"; fill="pink";>
+                    </svg>
+        
+        
+                    <canvas id="mysiva" height="400px" width="500px">
+                        This canvas is not supported on your browser
+                    </canvas>
+            
+                        <a download="siva" id="siva">download</a>
+                        <script  type="module" src="line.js">
+                    </script>
+                    <select>
+                      <option>png</option>
+                      <option>jpg</option>
+                    </select>
+
+            <!-- sematic tags -->
+
+            <h1>introduction to html</h1>
+<p>HTML stands for Hyper Text Markup Language.it is the standard markup language for creating Web pages.HTML describes the structure of a Web page,HTML consists of a series of elements.HTML elements tell the browser how to display the conten,HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link".</p>
+<h1>strong tag</h1>
+<strong>HTML stands for Hyper Text Markup Language.it is the standard markup language for creating Web pages.HTML describes the structure of a Web page,HTML consists of a series of elements.HTML elements tell the browser how to display the conten,HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link".</strong>
+<h1><b>bold tag</b></h1>
+<b>HTML stands for Hyper Text Markup Language.it is the standard markup language for creating Web pages.HTML describes the structure of a Web page,HTML consists of a series of elements.HTML elements tell the browser how to display the conten,HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link".</b>
+<h1><em>emphasized tag</em></h1>
+<em>HTML stands for Hyper Text Markup Language.it is the standard markup language for creating Web pages.HTML describes the structure of a Web page,HTML consists of a series of elements.HTML elements tell the browser how to display the conten,HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link".</em>
+<h1><i>italic tag</i></h1>
+<i>HTML stands for Hyper Text Markup Language.it is the standard markup language for creating Web pages.HTML describes the structure of a Web page,HTML consists of a series of elements.HTML elements tell the browser how to display the conten,HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link".</i>
+<h1><u>underline tag</u></h1>
+<u><br>HTML stands for Hyper Text Markup Language.it is the standard markup language for creating Web pages.HTML describes the structure of a Web page,HTML consists of a series of elements.HTML elements tell the browser how to display the conten,HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link".</br></u>
+<u>creating webpages</u>
+<h2><small>small tag</small></h2>
+<small>HTML stands for Hyper Text Markup Language.it is the standard markup language for creating Web pages.HTML describes the structure of a Web page,HTML consists of a series of elements.HTML elements tell the browser how to display the conten,HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link".</small>
+<h3><mark>mark tag</mark></h3>
+<mark>creating webpages,"this is a heading","this is a paragraph","this is a link"</mark>
+<h4>subscripted tag</h4>
+<p>HTML stands for Hyper Text Markup Language.it is the standard markup language for creating Web pages.HTML describes the structure of a Web page,HTML consists of a series of elements.HTML elements tell the browser how to display the conten,<sub>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link".HTML elements tell the browser how to display the conten,HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link".HTML elements tell the browser how to display the conten,HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link".</sub></p>
+<h5>superscripted tag</h5>
+<p>HTML stands for Hyper Text Markup Language.it is the standard markup language for creating Web pages.HTML describes the structure of a Web page,HTML consists of a series of elements.HTML elements tell the browser how to display the conten,HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link".<sup>HTML consists of a series of elements.HTML elements tell the browser how to display the conten,HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link".</sup></p>
+<h1>semantic tags</h1>
+<p>h1,h2......h6</p>
+<div style="border:3px solid black">
+<section>
+<h1> section tag</h1>
+<p>HTML stands for Hyper Text Markup Language.it is the standard markup language for creating Web pages.HTML describes the structure of a Web page,HTML consists of a series of elements.HTML elements tell the browser how to display the conten,HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link".</p>
+<div style="border:1px solid black">
+<h2>section tag<h2>
+  <p>HTML elements tell the browser how to display the content.HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link".HTML stands for Hyper Text Markup Language.HTML is the standard markup language for creating Web pages,HTML describes the structure of a Web ,HTML consists of a series of elements,HTML elements tell the browser how to display the content,HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</p>
+</div>
+</div>
+</section>
+<aside>
+<h1>aside tag</h1>
+<p>HTML stands for Hyper Text Markup Language.it is the standard markup language for creating Web pages.HTML describes the structure of a Web page,HTML consists of a series of elements.HTML elements tell the browser how to display the conten,HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link".</p>
+</aside>
+<main>
+<h1>main tag</h1>
+<p>HTML stands for Hyper Text Markup Language.it is the standard markup language for creating Web pages.HTML describes the structure of a Web page,HTML consists of a series of elements.HTML elements tell the browser how to display the conten,HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link".</p>
+</main>
+<nav>
+<h1>nav tag</h1>
+<a href=HTML>HTML<br></a> 
+<a href=CSS>CSS<br/></a>
+<a href="JS">JS</a>
+</nav>
+<footer>
+<h1>footer tag</h1>
+<a href="mailto:budugusiva@gmail.com">budugusiva@gmail.com</a>
+</footer>
+<div style="border:1px solid green">
+<h1>div tag</h1>
+</div>
+<div style="border:5px solid blue">
+<p>HTML stands for Hyper Text Markup Language.it is the standard markup language for creating Web pages.HTML describes the structure of a Web page,HTML consists of a series of elements.</p>HTML elements tell the browser how to display the conten,HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link".</p>
+</div>
+<header>
+<h1>header tag <h1>my paragraph</h1></h1>
+<p>this is mine</p>
+</header>
+<br/>
+<hr/>
+
+<svg width="400" height="400" xlmns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="100" style="fill:blue;">
+  <animate
+  attributeName="cx"
+  begin="0s"
+  dur="0.8s"
+  from="50"
+  to="90%"
+   repeatCount="indefinite">
+  <!-- <! fill="freeze"/>  -->
+
+  
+</circle>
+</svg> 
+
+            
+  </body>
+
+</html>

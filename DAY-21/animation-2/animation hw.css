@@ -1,0 +1,50 @@
+div{
+    height:100px;
+    width:100px;
+    background-color: chocolate;
+    animation-name: square;
+    position:relative;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    font-size: 50px;
+    animation-timing-function:linear;
+   
+       
+}
+@keyframes square{
+   0%{
+    top:0px;
+    left:0px;
+    background-color: aqua;
+   }
+   25%{
+    top: 0px;
+    left:200px;
+    background-color: #a56613;
+    border-radius: 50%;
+   }
+   50%{
+    top:200px;
+    left:200px;
+    background-color: cadetblue;
+    border-radius: 20%;
+   }
+   75%{
+    top:200px;
+    left:0px;
+    background-color: blue;
+    border-radius: 90%;
+   }
+   100%{
+    top:0px;
+    left:0px;
+    background-color: chartreuse;
+    border-radius: 10%;
+   }
+}
+
+/* main{
+    background-color: #a56613;
+    height:500px;
+} */

@@ -1,0 +1,39 @@
+
+.container{
+  position: relative;
+  display:inline-block;
+} 
+img{
+  width:300px;
+  height:300px;
+}
+.container:hover > main {
+  /* visibility: visible; */
+  /* opacity: 1; */
+width:300px;
+height:300px;
+visibility: visible;
+
+}
+main {
+  width:300px;
+  height:0px;
+  background-color: aqua;
+  color:black;
+  position: absolute;
+  text-align: center;
+  align-content: center;
+  visibility: hidden;
+  opacity: 1;
+  transition: 1s ease;
+  /* right:0; */
+  top:0; 
+  /* left:0; */
+  overflow: hidden;
+}
+/* #s1{
+  width:400px;
+  height:400px;
+  position:absolute;
+} */
+  

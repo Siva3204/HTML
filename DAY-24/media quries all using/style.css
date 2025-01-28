@@ -1,0 +1,95 @@
+
+.container{
+   /* display:flex;
+   flex-direction:row; 
+   flex-wrap: wrap; 
+   gap: 10px; */
+   display: grid;
+   grid-template-rows: repeat(2,auto);
+}
+
+@media screen and (max-width:300px){
+    .container{
+        background-color:rgb(181, 20, 157);
+        width:100%;
+    }
+}
+ @media screen and (min-width:301px) and (max-width:400px){
+    .container{
+        background-color:yellow;
+        width:90%;
+    }
+    h1{
+        background-color: aqua;
+    }
+} 
+@media screen and (min-width:401px) and (max-width:600px) {
+    .container{
+        width:90%;
+        background-color: rgb(4, 16, 12);
+        display:flex;
+    }
+    h1{
+        background-color: rgb(169, 174, 174);
+    }
+} 
+ @media screen and (min-width:601px) and (max-width:700px){
+    .container{
+        display:flex;
+        width:auto;
+        background-color: rgb(215, 115, 27);
+    }
+    h1{
+        background-color: rgb(0, 0, 0);
+    }
+}
+@media screen and (min-width:701px) and (max-width:800px){
+    .container{
+         display:flex;
+        width:90%;
+        background-color: rgb(93, 92, 91);
+    }
+    h1{
+        background-color: rgb(131, 13, 13);
+    }
+}
+@media screen and (min-width:801px) and (max-width:900px){
+    .container{
+         display:flex;
+        width:auto;
+        background-color: rgb(194, 43, 228);
+    }
+    h1{
+        background-color: #f50d3f5a;
+    }
+}
+@media screen and (min-width:901px) and (max-width:1000px){
+    .container{
+         display:flex;
+        width:auto;
+        background-color: rgb(60, 15, 163);
+    }
+    h1{
+        background-color: #0037ff1b;
+    }
+}
+@media screen and (min-width:1001px) and (max-width:1200px){
+    .container{
+         display:flex;
+        width:auto;
+        background-color: rgba(83, 228, 43, 0.1);
+    }
+    h1{
+        background-color: rgba(167, 10, 86, 0.568);
+    }
+}
+@media screen and (min-width:1201px) and (max-width:1400px){
+    .container{
+        display:flex;
+        background-color:#ff7300;
+        width:100%;
+    }
+    h1{
+        background-color: rgb(123, 255, 0);
+    }
+}

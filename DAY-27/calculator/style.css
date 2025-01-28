@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:100%;  
+    justify-items: center;
+    text-align: center;
+    align-content: center;
+    margin-top:50px; 
+   
+}
+
+form{
+    background-color:black;
+    border:10px solid red;
+    border-radius:20px;
+    width:30%;
+    padding:20px;
+    height:auto;
+}
+input{
+    height:75px;
+    width:75px;
+    margin:5px;
+    border-radius:20%;
+    font-size:20px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+input:hover{
+    color:hsl(359, 90%, 47%);
+    background-color:rgb(73, 176, 86)
+}
+ form #a1 input{
+    margin:20px 0;
+    width:90%;
+    height:50px;
+    border-radius:10px;
+    padding:10px;
+    background-color:white;
+    font-size:40px;
+    text-align: right;
+ }

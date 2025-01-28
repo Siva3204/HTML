@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+img{
+    float:right;
+    
+}
+div{
+   width: 30%;
+   /* margin: 50px; */
+   
+}
+main > div{
+    background-color: aqua;
+    padding: 50px;
+}

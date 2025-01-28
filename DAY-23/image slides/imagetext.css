@@ -1,0 +1,39 @@
+div{
+    position: absolute;
+    display:inline-block;
+}
+
+
+img{
+ 
+    height: 300px;
+    width:300px;
+    /* left:0px; */
+    /* background-color: aqua; */
+    /* border:3px solid rosybrown; */
+   
+}
+
+#p1{
+    color:black;
+    height: 310px;
+    width:300px;
+    background-color: blue;
+    text-align: center;
+    align-content: center;
+    position:absolute;
+    /* top:90px; */
+    left:8px;
+    visibility:visible;
+  
+    
+}
+div:hover #p1{
+    height: 0px;
+    width:300px;
+    
+    visibility: visible;
+   
+}
+
+   

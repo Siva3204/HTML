@@ -1,0 +1,19 @@
+/* html{
+    background-color: brown;
+} */
+:root{
+    --para-bg:red;
+    --para-bg: black;
+}
+
+
+body{
+    width:50%;
+    background-color: aqua;
+}
+div{
+    width:50%;
+    background-color: blueviolet;
+    color:var(--para-bg);
+    font-size: (--text-size);
+}

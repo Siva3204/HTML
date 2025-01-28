@@ -1,0 +1,54 @@
+body{
+    background-image: url("https://cdn.wallpapersafari.com/84/13/5XpPyw.jpg");
+    background-size: cover;
+ }
+form{
+    text-align: center;
+    align-content: center;
+     height:100%;
+     width: 30%;
+     color:seashell;
+     margin-left: 430px;
+     margin-top:10%;
+     /* border: 2px solid blue ; */
+     animation:zoom 1s linear 1;
+     box-shadow: 2px 2px 10px 1px black;
+ } 
+ label{
+     width:300px;
+     height: 20px;
+     
+ }
+ input[type="text"],input[type="password"]{
+         width:300px;
+         margin:10px;
+         height: 30px;
+         border-radius: 50px;
+         border:2px solid black;
+ }
+ button[type="text"]{
+     border-radius: 50px;
+     background-color: rgb(205, 199, 195);
+     width:190px;
+     height:50px;
+     border:2px solid black;
+ }
+ label:hover{
+     background-color: hwb(257 62% 11% / 0.463);
+     color:brown;
+ }  
+ input:hover{
+     background-color: rgb(189, 195, 19);
+ }
+ form:hover{
+     background-color: chocolate;
+ }
+ @keyframes zoom{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+ }

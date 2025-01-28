@@ -1,0 +1,25 @@
+:root{
+    --text-color:#eb1d1d;
+    --bg-color:blue;
+    --text-align:center;
+    --box-shadow:10px 10px maroon;
+    --font-align:justify;
+    --text-color:hsl(352, 80%, 44%);
+    --background-color:bisque;
+    --image-color:aqua;
+}
+h1{
+    height:10vh;
+    color:var(--text-color);
+    background-color: var(--bg-color);
+    text-align: var(--text-align);
+    text-shadow: var(--box-shadow);
+}
+p{
+    text-align: var( --font-align);
+    color:var(--text-color);
+    background-color: var(--background-color);
+}
+img{
+    background-color: var(--image-color);
+}

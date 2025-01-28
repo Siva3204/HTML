@@ -1,0 +1,17 @@
+$border:3px solid blue;
+$color:pink;
+$bg-color:beige;
+
+
+
+.container{
+    display:flex;
+}
+div{
+     border:$border;
+     height: 300px;
+}
+p{
+  color:$color;
+  background-color:$bg-color;
+}

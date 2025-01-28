@@ -1,0 +1,67 @@
+h1:first-of-type{
+    background-color: green;
+    
+}
+h2:first-of-type{
+    background-color: aqua;
+}
+h6:last-of-type{
+    color: blue;
+}
+p:nth-child(1){
+    color: blueviolet;
+}
+p:first-line{
+    color:blue;
+}
+p:first-letter{
+    color:blue;
+    font:300px;
+}
+
+p:first-child{
+    color:violet;
+}
+div:last-child{
+    color:yellow;
+}
+
+div ~ p{
+    color:yellowgreen;
+}
+p:nth-of-type(2){
+    color:red;
+}
+
+input{
+    background-color: yellowgreen;
+    color:blue;
+}
+[type=radio]{
+    accent-color:pink;
+}
+[type=checkbox]:checked + label{
+    font-weight: 800;
+}
+
+[class*="siva"]::first-letter{
+    font:100;
+}
+
+/* before paragraph,adding some symbols,paragraph and anything will added */
+/* how to add->  content:'"'*/
+/* ':strting ,":put inside the body   ':ending  //these are the symbols */
+p::before{
+     /* content:"https://pngimg.com/uploads/triangle/triangle_PNG95.png"; */
+     content:'"';
+}
+     
+p::after{
+    content:"https://pngimg.com/uploads/triangle/triangle_PNG95.png";
+}
+
+p{
+    position:relative;
+}
+
+

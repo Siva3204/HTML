@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    
+  }
+  
+  div {
+    border: 3px solid blue;
+    height: 300px;
+    
+   
+  }
+  
+  p {
+    color: rgb(180, 11, 39);
+    /* background-color: beige; */
+  }
+  
+h2{
+  text-align: center;
+  border-bottom:3px solid blue ;
+}
+  

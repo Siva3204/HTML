@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    width: 100%;
+    height: 180px;
+    position: fixed;
+    background-color: rgb(166, 163, 156);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    border-bottom: 6px double black;
+}
+#header_div{
+    /* background-color: rgb(222, 140, 33); */
+    color: blueviolet;
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-top: 10px double black;
+    border-bottom: 10px double black;
+    /* margin-top: 0px; */
+ }
+header>div + div{
+    /* background-color: bisque; */
+    
+    height: 50px;
+    text-align: end;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin-left: 65%;
+    padding: 15px;
+    /* margin-top: 20px; */
+}
+main{
+    /* width: 100%;
+    height: 300px;
+    position: relative; */
+    background-color: rgb(138, 149, 149);
+    display: flex;
+}
+#side_div1{
+    width: 15%;
+    height: 90%;
+    background-color: rgb(134, 134, 132);
+    margin-top: 180px;
+    position: fixed;
+    overflow-y: scroll;
+}
+#content_div{
+    width: 85%;
+    height: auto;
+    background-color: rgb(134, 134, 132);
+    margin-top: 180px;
+    margin-left: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    /* flex-direction: column ; */
+}
+#content_div > div:nth-child(2){
+    /* background-color: bisque; */
+    width: 49%;
+    border-left: 10px double black ;
+    border-right: 10px double black ;
+    /* height: 300px; */
+}
+.sub_content{
+    width: 23%;
+    /* height: 800px; */
+    /* background-color: aquamarine; */
+    margin: 15px;
+    
+}
+.item2{
+    width:50%;
+    border-top: 3px double black;
+    /* background-color:antiquewhite; */
+    margin: 5px;
+}
+.item3{
+    width: 30%;
+    border-top: 3px double black;
+    /* background-color: aqua; */
+}
+.item4{
+    width: 18%;
+    border-top: 3px double black;
+    /* background-color: rgb(65, 90, 90); */
+}
+img{
+    width: 100%;
+}
+img[src*="news2"]{
+    /* width: 18%; */
+    height: 300px;
+}
+h2{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 25px;
+}
+h5{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#side_div1 > p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+    border-top: 10px double black;
+}

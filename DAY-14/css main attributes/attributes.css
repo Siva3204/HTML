@@ -1,0 +1,53 @@
+input{
+    border:3px solid blue;/
+    
+}
+[type]{
+    border:3px solid green;
+}
+input[type="text"]{
+    border:3px solid blanchedalmond;
+    color:red;
+}
+
+/* words are checking  for storing or not in the div or any tags*/
+/* like <div class="siva is good hello"> */
+/* this tag defines whether the word is inside the attribute */
+[class~="hello"]{
+    background-color: brown;
+}
+
+/* searching the string */
+div[class~="HeLLo"]{
+    background-color: red;
+}
+
+/* used for starting the words like links */
+a[href^="http"]{
+    color:red;
+}
+
+/* using for ending the link like .com */
+a[href$=".com"]{
+    color:rgb(26, 177, 64);
+}
+
+/* ths is "checking the language"*/
+/* or matching language */
+
+[lang|="en"]{
+    background-color:rgb(177, 112, 32);
+}
+
+                                                    /* [attribute *="hub"] */
+
+
+/* after "a"  put "p"  */
+a+p{
+    color:pink;
+}
+/* after "p" put "a" */
+p~a{
+    color:brown;
+}
+

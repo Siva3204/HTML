@@ -1,0 +1,41 @@
+/* body{
+    width:600px;
+    height:400px;
+} */
+
+div{
+    height:100px;
+    width:100px;
+    background-color: aqua;
+    position:absolute;
+    animation-name: change-position;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes change-position{
+    0%{
+        background-color: azure;
+        left:0px;
+        top:0px;
+    }
+    25%{
+        background-color: black;
+        left:200px;
+        top:0px;
+    }
+    50%{
+        background-color: blue;
+        left:200px;
+        top:200px;
+    }
+    75%{
+        background-color: cadetblue;
+        left:0px;
+        top:200px;
+    }
+    100%{
+        background-color: brown;
+        left:0px;
+        top:0px;
+    }
+  }

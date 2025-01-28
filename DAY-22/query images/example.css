@@ -1,0 +1,51 @@
+
+h1{
+    text-align: center;
+    border:3px solid blue;
+    border-radius:50px;
+    background-color: aqua;
+}
+.container{
+    position:relative;
+    height:100%;
+    width: 100%;
+    visibility: visible;
+}
+img{
+    height:300px;
+    width:300px;   
+}
+
+h2{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    color:brown;
+    text-align: center;
+    align-content: center;
+    visibility:visible;
+    position: absolute;
+    opacity: 1;
+    transition: 1s ease;
+    left:0;
+    top:0;
+  
+    
+}
+.container:hover h2{
+    top: 0px;
+    left:0;
+    visibility:visible; 
+    overflow: hidden;
+    
+} 
+
+
+
+
+
+
+
+
+
+

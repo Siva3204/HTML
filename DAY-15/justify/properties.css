@@ -1,0 +1,29 @@
+div{
+    width:"500px;"
+}
+
+h1{
+    color:aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-style:oblique;   /*italic*/
+     background-color:yellow ;
+     text-align: left;
+
+} 
+p{
+    text-align:justify;                /*justify means "line-alignment"*/
+    text-decoration:line-through;
+    text-decoration: underline dotted red 5px;
+    /*text-transform: uppercase; */      /* uppercase means in the word, all letter getting capital*/
+   /* text-transform: lowercase; */      /* lowercase means in the word, lower letter getting capital*/
+    text-transform: capitalize;          /*capitalize means all letter getting capital*/
+    /*line-height: 40px;  */             /*line-height means taking space b/w the two lines*/
+    /*letter-spacing: 50px; */           /* each letter taking space*/
+    /*word-spacing: 30px; */             /*word-spacing means each word taking space */
+} 
+
+
+p{
+    font-family:courier;
+    padding:top right bottom left 5px 20px 20px 50px;
+}

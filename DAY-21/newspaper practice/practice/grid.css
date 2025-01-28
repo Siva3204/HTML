@@ -1,0 +1,130 @@
+*{
+    margin:0px;
+}
+/* main{
+    background-color: bisque;
+    border: 5px solid greenyellow;
+    display: grid;
+    grid-template-columns:auto auto;
+
+}
+div{
+    border:3px solid blue;
+}
+#siva{
+    background-color: chartreuse;
+    border:9px solid goldenrod
+} */
+
+
+/* div{
+    background-color: chartreuse;
+    border:8px solid blue;
+}
+#s2{
+    background-color: red;
+}
+#s2 h1{
+    background-color: aqua;
+} */
+
+/* .siva{
+    background-color: chartreuse;
+    border:8px solid blue;
+    display:grid;
+    grid-template-columns: auto auto ;
+}
+div{
+    background-color: yellow;
+    border: 4px solid red;
+}
+.th10{
+    background-color: blueviolet;
+    border: 5px double black;
+    
+}
+.th11{
+    background-color: palevioletred;
+}
+.th12{
+    border: 5px dotted brown;
+    background-color: aliceblue;
+}
+.th13{
+    border: 8px solid grey;
+    background-color: coral;
+}
+#s1{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+#s2{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+#s3{
+    display:grid;
+    grid-template-areas: "header header header header "
+                          "nav main main side"
+                          "nav main main side"
+                          "nav main main side";
+
+
+}
+#s4{
+    grid-area: header;
+}
+#s5{
+    grid-area: nav;
+}
+#s6{
+    grid-area: side;
+}
+#s7{
+    grid-area: main;
+}
+
+#na{
+    
+    display: grid;
+    grid-template-areas: "header header header header"
+                          "aside main main nav"
+                          "aside section section nav"
+                          "footer footer footer footer";
+}
+
+#a1{
+    grid-area: header;
+}
+#a2{
+    grid-area: aside;
+}
+#a3{
+    grid-area: main;
+}
+#a4{
+    grid-area: nav;
+}
+#a5{
+    grid-area: section;
+}
+#a6{
+    grid-area: footer;
+}
+.v{
+    border:5px solid #b20d26; 
+} */
+ /* div{
+    height:100px;
+    width:500px;
+    color:rgb(241, 233, 233);
+    background-color: rgb(51, 43, 43);
+ } */
+ .th1{
+    background-color: aquamarine;
+    display:flex;
+    flex-direction: column;
+}
+.s{
+    background-color: chocolate;
+}

@@ -1,0 +1,52 @@
+<html>
+    <head>  
+    <style>
+        h1,form{
+            text-align:center;
+        }
+        form{
+            border:2px solid black;
+            width: 75%;
+            margin:10%;
+        }
+        input[type=submit],input[type=reset]{
+            background-color: red;
+
+        }
+        input[type=text],input[type=password]{
+            width: 100%;
+        }
+        div{
+            border: 2px solid blue;
+            width: 40%;
+            margin-left: 30%;
+        }
+        div:hover{
+            background-color: brown;
+        }
+        input:hover{
+            background-color: aqua;
+            cursor: pointer;
+        }
+    </style> 
+    </head>
+    <body>
+    
+        <div>
+            <form>
+        <h1>Post</h1>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name"><br/>
+        <br/>
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password"><br/>
+        <label for="Title">Title:</label>
+        <input type="text" id="text" placeholder="Enter your text"><br/>
+        <br/>
+         <input type="submit" value="submit">
+         <input type="reset">
+        </form>
+        </div>
+   
+    </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Poster Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="poster-container">
+        <h1>Poster Builder</h1>
+
+        <input type="file" id="image-input" accept="image/*">
+
+        <div id="poster-details">
+            <label for="title">Title:</label>
+            <input type="text" id="title" placeholder="Enter title">
+
+            <label for="description">Description:</label>
+            <textarea id="description" rows="4" placeholder="Enter description"></textarea>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date">
+
+            <label for="author">Author:</label>
+            <input type="text" id="author" placeholder="Enter author's name">
+        </div>
+
+        <div id="image-preview">
+            <img id="preview-image" src="" alt="Preview" height="300" width="400">
+            <div class="overlay">
+                <h2 id="overlay-title"></h2>
+                <p id="overlay-description"></p>
+                <p id="overlay-date"></p>
+                <p id="overlay-author"></p>
+            </div>
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>

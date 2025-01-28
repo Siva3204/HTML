@@ -1,0 +1,17 @@
+.container{
+    text-align: center;
+    padding-top:100px;
+}
+input{
+    width:26%;
+    height:4vh;
+}
+button{
+    height:6vh;
+    width:5%;
+    font-size:20px;
+}
+h2{
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: underline;
+}

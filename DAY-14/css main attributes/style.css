@@ -1,0 +1,49 @@
+
+h1:first-of-type{
+    color:blue;
+}
+
+
+p:last-of-type{
+    color: yellowgreen;
+}
+
+p:last-of-type::first-letter{
+    color: yellow;
+}
+
+
+p:first-line{
+    color:blue;
+}
+p:first-child{
+    color:violet;
+}
+div:last-child{
+    color:yellow;
+}
+
+div ~ p{
+    color:yellowgreen;
+}
+p:nth-of-type(2){
+    color:red;
+}
+
+input{
+    background-color: yellowgreen;
+    color:blue;
+}
+[type=radio]{
+    accent-color:rgb(45, 181, 32);
+}
+[type=checkbox]:checked + label{
+    font-weight: 800;
+    color: brown;
+}
+[type=checkbox]{
+    accent-color: aquamarine;
+}
+
+
+

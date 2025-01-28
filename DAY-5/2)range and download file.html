@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+        </style>
+        <link rel="" type="">
+    </head>
+    <body>
+        <h1>display a range fiels</h1>
+        <form>
+        <!--range  -->
+        <label for="range">range</label>
+        <input type="range" id="age" name="age" min="0" max="10" oninput="this.form.out.value = this.value" >
+        <output name="out">0</output>
+        <button type="submit">submit</button>
+        </form>
+        <!-- download the file -->
+         <label for="file">resume(choose file)</label>
+         <!-- using input type  -->
+         <input type="file" min="0" max="10"><br/>
+         <!-- using progress id -->
+          <h1>using the <u>value means showing the downloaded percentage</u></h1>
+          <label for="file">download</label>
+         <progress id="file" min="0" max="10" value="5" >
+
+         </body>
+</html>

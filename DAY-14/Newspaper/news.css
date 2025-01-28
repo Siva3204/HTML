@@ -1,0 +1,247 @@
+*{
+    padding:0;
+    margin:0;
+   
+}
+body{
+    height: 100%;
+    width:100%;
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/24/20/03/background-1413126_1280.jpg") ;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    /* padding: 50px; */
+}
+header{
+    padding: 50px;
+   
+}
+h1{
+    text-align: center;
+    /* font:chomsky, Arial, Helvetica, sans-serif; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:90px;
+    border-bottom:2px solid black;
+    /* padding:50px; */
+}
+time{
+    text-align: center;
+    font: 600 1.5rem 'Oswald', sans-serif;
+    border-top:2px solid #333333;
+    border-bottom: 3px solid #333333;
+    padding: 12px;
+    display: block;
+}
+ .container{
+    height: 100%;
+    width:100%;
+    /* padding:50px; */
+    padding-left:50px;
+    display:grid;
+    grid-template-columns:repeat(3,auto) ;
+    text-align: justify;
+} 
+ h3{
+    font-size:30px;
+    width:100%;
+    padding-bottom:30px;
+    font: 25px 'galeana', sans-serif;
+}
+ main{
+    width:85%;
+    height:100%;
+    text-align: justify;
+    border-right:2px solid #151515;
+    padding-right: 20px;
+    
+}
+ main img{
+    float:left;
+    width:65%;
+    height:245px;
+    padding-right: 10px;
+}
+/* #a1{
+    padding:10px;
+} */
+.a1{
+    padding-top: 30px;
+}
+
+ article{
+    width:85%;
+    height:100%;
+    text-align: justify;
+    border-right:2px solid #151515;
+    padding-right:20px;
+ }
+ article img{
+      width:100%;
+ }
+ aside{
+    width:75%;
+    height:100%;
+    text-align: justify;
+    /* border-right:2px solid #151515; */
+    padding-right:20px;
+ }
+ aside img{
+    width:100%;
+ }
+ h2{
+    padding-top:30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+ footer{
+    width:100%;
+    /* margin-top: auto; */
+    text-align: center;
+    padding:15px;
+    background-color:lightsalmon;
+    /* border: 5px solid black; */
+}
+
+@media screen and(min-width:955px){
+   body{
+     height:100%;
+     width:100%;
+    }
+    header{
+        padding:50px;
+    }
+    h1{
+        text-align: center;
+        border-bottom:2px solid #151515;
+        font-size:50px;
+    }
+    time{
+        text-align: center;
+        padding: 12px;
+        display: block;
+    }
+    .container{
+           height: 100%;
+           width: 100%;
+           padding-left:50px;
+           display:flex;
+           flex-direction: column;
+           flex-wrap: wrap;
+           text-align: justify;
+       } 
+       h3{
+        font-size:15px;
+        width:100%;
+        padding-bottom:20px;
+        font: 25px 'galeana', sans-serif;
+       }
+       main article aside{
+        width:85%;
+        height:100%;
+        text-align: justify;
+        border-right:2px solid #151515;
+        padding-right: 20px;
+} 
+main img{
+    float:left;
+    width:65%;
+    height:245px;
+    padding-right: 10px;
+}
+.a1{
+    padding-top: 30px;
+}
+article img{
+    width:100%;
+}
+aside img{
+    width:100%;
+ }
+ h2{
+    padding-top:30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+ footer{
+    width:100%;
+    text-align: center;
+    padding:15px;
+    background-color:lightsalmon;
+}
+
+}
+
+
+
+ /* @media(min-width: 955px) {
+    main {
+      column-count:1;
+      column-rule: 2px solid #333333; 
+      column-gap: 42px; 
+       margin-top: 36px; 
+     } 
+
+    p {
+        text-align: justify;
+        hyphens: auto;
+      }
+
+    img{
+        float: left;
+        margin-right: 24px;
+    }
+  }
+
+  article{
+    margin-bottom: 250px;
+  }
+
+ aside{
+    margin-bottom: 350px;
+  }
+ 
+
+
+  footer{
+
+    margin-top: auto;
+    text-align: center;
+    padding: 15px;
+    background-color:lightsalmon;
+} 
+  .container2{
+    height: 100%;
+    width:100%;
+    padding:40px;
+    display:flex;
+    flex-direction: row;
+    text-align: justify;
+ }
+ nav{
+    width:50%;
+    height:100%;
+    text-align: justify;
+    border-right:2px solid #151515;
+    padding-right: 20px;
+}
+nav img{
+    width:100%;
+}
+section{
+    width:50%;
+    height:100%;
+    text-align: justify;
+    border-right:2px solid #151515;
+    padding-right: 20px;
+ }
+ section img{
+      width:100%;
+ }
+ caption{
+    width:90%;
+    height:100%;
+    text-align: justify;
+    border-right:2px solid #151515;
+    padding-right: 20px;
+ }
+ caption img{
+    width:100%;
+ }  */

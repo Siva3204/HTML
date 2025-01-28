@@ -1,0 +1,38 @@
+h1 {
+    background:red;
+}
+
+p:hover{
+    background-color:yellow;
+}
+#hi{
+    background-color: blueviolet;
+}
+.hlo{
+    background-color:pink;
+}
+#dj ,.jk{
+    background:rgb(111, 80, 225);
+}
+/* div.nav > p{
+    background-color: brown;
+    
+} */
+
+div > p{
+    background-color: blanchedalmond;
+}
+  section >p{
+    background-color: blueviolet; 
+}  
+     div #siva > p{
+    background-color: aqua;
+} 
+
+.jp{
+    background-color: red;
+}
+
+#siva{
+    background: violet;
+}

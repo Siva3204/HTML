@@ -1,0 +1,31 @@
+div{
+    height:50px;
+    width:50px;
+    background-color: brown;
+    position:relative;
+    animation-name: rectangle;
+    animation-duration: 2s;
+    animation-direction:alternate;
+    animation-iteration-count: 9;
+}
+@keyframes rectangle{
+    0%{
+        left:0px;
+        background-color: chocolate;
+        transform: rotate(0deg);
+    }
+    15%{
+        left:20px;
+        transform:rotate(20deg);
+    }
+    50%{
+        left:500px;
+        background-color: darkmagenta;
+        transform: rotate(0deg);
+    }
+    100%{
+        left:0px;
+        background-color: darkmagenta;
+        transform: rotate(-360deg);
+    }
+}

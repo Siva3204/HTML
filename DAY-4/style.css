@@ -1,0 +1,29 @@
+h1{
+    color:beige;
+    background-color:red;
+}
+h2{
+    color:black;
+    background-color: violet;
+}
+h3{
+    color:rgb(43, 168, 59);
+    background-color :aqua;
+    
+}
+
+div{
+    border:1px solid black;
+   
+}
+body{
+    color: red;
+    text-align:center;
+}
+a:hover{
+    color:white;
+    background-color: #13b726;
+}
+p:hover{
+    background-color:mediumslateblue;
+}

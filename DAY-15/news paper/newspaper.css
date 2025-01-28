@@ -1,0 +1,39 @@
+*{
+    margin:0px;
+    border:0 px;
+    padding:0 px;
+}
+th{
+    border:2px soild blue;
+}
+
+
+/* p{
+    font-family: courier;
+} */
+img{
+    top:10px;
+    float:right;
+}
+.grid-item{
+  display:grid;
+  grid-template-columns:auto auto ;
+  gap:20px;
+   
+   
+}
+table{
+    border:2px solid blue;
+    padding:10px; 
+}
+
+div{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* p::first-letter{
+    font:100;
+} */
+

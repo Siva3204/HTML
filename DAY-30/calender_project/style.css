@@ -1,0 +1,47 @@
+.container{
+    height:100%;
+    width:100%;
+}
+.first-row{
+    height:auto;
+    width:auto;
+    display:flex;
+    flex-direction:column;
+}
+.month-year{
+    height:50px;
+    width:200px;
+    /* justify-content: space-between;  */
+}
+.action{
+position:absolute;
+top:5px;
+left:90%;
+}
+.layout{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.weeks{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+}
+ .days{
+height:50px;
+width:100%;
+display:flex;
+flex-direction:row;
+justify-content: space-between;
+
+}
+li{
+    height:100%;
+    width:100%;
+    list-style: none;
+   justify-content: space-around;
+}
